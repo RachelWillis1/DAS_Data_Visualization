@@ -37,7 +37,7 @@ This notebook uses raw or minimally preprocessed DAS data. For more advanced pre
 
 - *Willis, R. M. (2025). From Injection to Ice: Advancing Climate Solutions Through Seismology, Machine Learning, and Open Science (Doctoral dissertation). Colorado School of Mines.*
 - *Grimm, J. (2021). Cryoseismic Event Analysis on Distributed Strain Recordings Leveraging Statistical Learning Methods (Master’s thesis). Delft University of Technology. https://repository.tudelft.nl/record/uuid:b98362cd-ab70-4158-9055-733e86d29b13*
-- *Manos, J.-M., Gr¨aff, D., Martin, E. R., Paitz, P., Walter, F., Fichtner, A., Lipovsky, B. P. (2024). DAS to discharge: using distributed acoustic sensing (DAS) to infer glacier runoff. Journal of Glaciology, 70 , e67.*
+- *Manos, J.-M., Graff, D., Martin, E. R., Paitz, P., Walter, F., Fichtner, A., Lipovsky, B. P. (2024). DAS to discharge: using distributed acoustic sensing (DAS) to infer glacier runoff. Journal of Glaciology, 70 , e67.*
 
 These works detail recommended methods for enhancing DAS signals for various environmental sensing applications.
 
