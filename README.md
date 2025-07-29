@@ -31,13 +31,18 @@ Ensure you have the following installed:
 2. **Channel Configuration**: Review `channels_to_read_new.json` to understand or modify which channels will be loaded for visualization.
 3. **Run the Notebook**: Launch `DAS_Visualization_AWS.ipynb` using Jupyter and follow the cells in order. The notebook includes plots and comments to guide usage.
 
+## Notes on File Format Assumptions  
+This notebook assumes that the files are collected with a Silixa iDAS interrogator unit, stored in an HDF5 format that stores:
+- data referred to through "raw_das_data"
+- metadata referred to through "starttime" that is the UTC date time, an integer sample rate referred to by "sampling_frequency_Hz", a channel spacing float referred to by "spatial_resolution_m", and the starting distance along the fiber stored as a float referred to by "start_distance_m"
+
 ## Notes on Preprocessing
 
 This notebook uses raw or minimally preprocessed DAS data. For more advanced preprocessing steps (e.g., filtering, noise reduction), we recommend reviewing the following references:
 
 - *Willis, R. M. (2025). From Injection to Ice: Advancing Climate Solutions Through Seismology, Machine Learning, and Open Science (Doctoral dissertation). Colorado School of Mines.*
 - *Grimm, J. (2021). Cryoseismic Event Analysis on Distributed Strain Recordings Leveraging Statistical Learning Methods (Master’s thesis). Delft University of Technology. https://repository.tudelft.nl/record/uuid:b98362cd-ab70-4158-9055-733e86d29b13*
-- *Manos, J.-M., Graff, D., Martin, E. R., Paitz, P., Walter, F., Fichtner, A., Lipovsky, B. P. (2024). DAS to discharge: using distributed acoustic sensing (DAS) to infer glacier runoff. Journal of Glaciology, 70 , e67.*
+- *Manos, J.-M., Gräff, D., Martin, E. R., Paitz, P., Walter, F., Fichtner, A., Lipovsky, B. P. (2024). DAS to discharge: using distributed acoustic sensing (DAS) to infer glacier runoff. Journal of Glaciology, 70 , e67.*
 
 These works detail recommended methods for enhancing DAS signals for various environmental sensing applications.
 
